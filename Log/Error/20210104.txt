@@ -1,0 +1,12 @@
+08:17:20:【主库】状态不可用，等待后台检查程序恢复方可使用。No error message available, result code: DB_SEC_E_AUTH_FAILED(0x80040E4D).   at FreeSql.Internal.CommonProvider.AdoProvider.LoggerException(IObjectPool`1 pool, PrepareCommandResult pc, Exception ex, DateTime dt, StringBuilder logtxt, Boolean isThrowException)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteReaderMultiple(Int32 multipleResult, DbConnection connection, DbTransaction transaction, Action`2 fetchHandler, Action`2 schemaHandler, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteDataTable(DbConnection connection, DbTransaction transaction, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteDataTable(String cmdText, Object parms)
+   at Message.Form1.GetAlarmData() in D:\Work\Anderson\20201124污水处理\message20201124\Message\Form1.cs:line 135
+   at Message.Form1.timer1_Tick(Object sender, EventArgs e) in D:\Work\Anderson\20201124污水处理\message20201124\Message\Form1.cs:line 104
+08:18:17:【主库】状态不可用，等待后台检查程序恢复方可使用。No error message available, result code: DB_SEC_E_AUTH_FAILED(0x80040E4D).   at FreeSql.Internal.CommonProvider.AdoProvider.LoggerException(IObjectPool`1 pool, PrepareCommandResult pc, Exception ex, DateTime dt, StringBuilder logtxt, Boolean isThrowException)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteReaderMultiple(Int32 multipleResult, DbConnection connection, DbTransaction transaction, Action`2 fetchHandler, Action`2 schemaHandler, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteDataTable(DbConnection connection, DbTransaction transaction, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteDataTable(String cmdText, Object parms)
+   at Message.Form1.GetAlarmData() in D:\Work\Anderson\20201124污水处理\message20201124\Message\Form1.cs:line 135
+   at Message.Form1.timer1_Tick(Object sender, EventArgs e) in D:\Work\Anderson\20201124污水处理\message20201124\Message\Form1.cs:line 104
